@@ -9,12 +9,4 @@ def prime?(n)
   if n%2 == 0
     return false
   end
-  d = 3
-  while (d*d < n) do
-    if(n%d==0)
-      return false
-    end
-    d+=2
-  end
-  return true;
-end
+  
