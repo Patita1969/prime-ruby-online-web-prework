@@ -1,10 +1,11 @@
-# Add  code here!
-def prime?(x):
-    if x > 1:
-        n = x // 2
-        for i in range(2, n + 1):
-            if x % i == 0:
-                return False
-        return True
-    else:
-        return False
+# Add  code here
+        def prime n 
+          2.upto(Math.sqrt(n)) do |x|
+            if n % x == 0
+              the square root of the number
+              return false 
+            else
+              return true 
+            end 
+          end
+        end
